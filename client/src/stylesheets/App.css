@@ -1,0 +1,596 @@
+/* Add your CSS here */
+
+body {
+    margin: 0;
+}
+
+#title {
+    background-color: lightgrey;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    padding: 40px 35px;
+    margin: 0%;
+    border: 1px solid black;
+}
+
+#log {
+    float: left;
+    margin-top: 30px;
+    margin-left: 50px;
+    background-color: lightgrey;
+    color: black;
+    border: 1px solid black;
+}
+
+#search_input {
+    float: right;
+    padding: 6px;
+    margin-top: -80px;
+    margin-right: 50px;
+    font-size: 20px;
+    border: 1px black;
+    border-style: solid;
+}
+
+.side_content {
+    cursor: pointer;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    color: dodgerblue;
+    font-style: normal;
+    padding: 10px 50px;
+    border-style: hidden;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+#tag_menu {
+    text-align: center;
+}
+
+#main_left {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    border-right: 1px dashed black;
+    height: 100%;
+}
+
+#main_right {
+    position: relative;
+    margin-top: 15px;
+    margin-left: 210px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border-bottom: 2px dashed gray; */
+}
+
+#allQ {
+    display: inline-block;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    margin-left: 40px;
+    /* position: absolute;
+    left: 15%;
+    top: 13% */
+}
+
+#numQ {
+    display: inline-block;
+    /* position: absolute; */
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin-right: 65%;
+    margin-left: 40px;
+    /* width: 200px; */
+    font: bold;
+}
+
+#num_tags {
+    display: inline-block;
+    margin-left: 2%;
+}
+
+#all_tags {
+    display: inline-block;
+    margin-left: 33%;
+    /* position: absolute; */
+
+}
+
+#prev_button {
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+#next_button {
+    margin-bottom: 20px;
+    margin-right: 20px;
+    float: right;
+}
+
+.sort_buttons {
+    display: inline-block;
+    position: relative;
+    /* left: 30.5%; */
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+#all_question_and_buttons {
+    margin: -15px 0;
+    /* padding: 10px 0; */
+}
+
+#sorting_btns {
+    display: inline-block;
+    /* margin-left: 75%; */
+}
+
+.askQ {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    margin-left: 75%;
+    display: inline-block;
+    border: 1px solid black;
+    color: white;
+    padding: 15px 25px;
+    cursor: pointer;
+    background-color: dodgerblue;
+    font-size: 18px;
+}
+
+#ask_question_page {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 70px;
+}
+
+.askQ_italic {
+    font-style: italic;
+}
+
+.askQ_textarea {
+    font-size: x-large;
+}
+
+#post_btn {
+    display: inline-block;
+    border: 1px solid black;
+    color: white;
+    padding: 10px 5px;
+    background-color: dodgerblue;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#mandatory {
+    display: inline-block;
+    margin-left: 300px;
+    color: red;
+}
+
+#main_questions {
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px dashed black;
+    margin-top: 25px;
+}
+
+#number_and_sorting_buttons {
+    border-bottom: 1px dashed black;
+}
+
+#user_page_under_dash {
+    padding-bottom: 10px;
+    border-bottom: 1px dashed black;
+}
+
+#section1 {
+    display: inline-block;
+    position: relative;
+    bottom: 20px;
+    margin-left: 40px;
+    color: gray;
+}
+
+#section2 {
+    display: inline-block;
+    margin-left: 50px;
+    width: 40%;
+}
+
+#section3 {
+    float: right;
+    margin-right: 150px;
+}
+
+#quest_num_view {
+    padding-top: -10px;
+}
+
+.quest_title {
+    /* display: inline-block; */
+    color: dodgerblue;
+    cursor: pointer;
+    font-size: larger;
+}
+
+#quest_tags {
+    /* display: inline-block; */
+    height: fit-content;
+}
+
+.quest_tag {
+    display: inline-block;
+    background-color: dimgray;
+    color: white;
+    border: 1px solid black;
+    padding: 3px 10px;
+    margin-right: 5px;
+    border-radius: 7%;
+}
+
+#quest_user {
+    display: inline-block;
+    color: red;
+    margin-right: 5px;
+}
+
+#quest_asked {
+    display: inline-block;
+    color: gray;
+    margin-right: 5px;
+}
+
+#quest_time {
+    display: inline-block;
+    color: gray;
+}
+
+#question_content_page {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -15px;
+}
+
+.space {
+    margin-left: 30px;
+}
+
+#q_section1 {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+#q_section2 {
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+#q_content_area {
+    border-bottom: 1px dashed black;
+}
+
+#q_content_num_ans {
+    /* display: inline-block; */
+    margin-bottom: 30px;
+}
+
+#q_content_num_view {
+    /* display: inline-block; */
+    margin-top: 50px;
+    text-align: center;
+    /* position: relative; */
+    /* bottom: 40px; */
+}
+
+#q_content_title {
+    /* display: inline-block; */
+    margin-left: 20px;
+}
+
+
+#q_content_text {
+    /* display: inline-block; */
+    /* width: 35%; */
+    margin-left: 20px;
+}
+
+#q_content_user {
+    color: red;
+}
+
+#q_content_title_and_text {
+    display: inline-block;
+    width: 500px;
+    margin-left: 40px;
+}
+
+#q_content_user_and_time {
+    display: inline-block;
+    margin-left: 410px;
+}
+
+#ans_question_btn {
+    border: 1px solid black;
+    color: white;
+    padding: 15px 5px;
+    background-color: dodgerblue;
+    font-size: 18px;
+    margin: 30px 30px;
+    cursor: pointer;
+}
+
+#q_content_answers {
+    border-bottom: 1px dashed black;
+    padding: 35px 30px;
+}
+
+#q_content_ans_vote {
+    display: inline-block;
+    margin-right: 5%;
+}
+
+#q_content_ans_text {
+    width: 50%;
+    display: inline-block;
+}
+
+.ans_font {
+    font-size: x-large;
+}
+
+#content_section {
+    display: inline-block;
+    margin-left: 150px;
+}
+
+#q_content_ans_by {
+    color: green;
+}
+
+#answer_question_page {
+    margin-left: 60px;
+}
+
+#ans_post_btn {
+    border: 1px solid black;
+    color: white;
+    padding: 15px 15px;
+    background-color: dodgerblue;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#tag_headers {
+    margin-bottom: 50px;
+}
+
+#tag_content_left {
+    display: inline-block;
+    border: 1px dashed gray;
+    height: 50px;
+    width: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 11.5%;
+    margin-right: 11.5%;
+    padding: 10px 0px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#tag_content_middle {
+    display: inline-block;
+    border: 1px dashed gray;
+    height: 50px;
+    width: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 11.5%;
+    margin-right: 11.5%;
+    padding: 10px 0px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#tag_content_right {
+    display: inline-block;
+    border: 1px dashed gray;
+    height: 50px;
+    width: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 11.5%;
+    margin-right: 11.5%;
+    padding: 10px 0px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.tag_name {
+    color: dodgerblue;
+    cursor: pointer;
+    text-decoration: underline;
+    position: relative;
+    /* top: 10px; */
+}
+
+.tag_box {
+    padding-top: 5px;
+}
+
+#no_questions {
+    margin-left: 60px;
+}
+
+
+#welcome_header {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: xx-large;
+}
+
+#welcome_register {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 45%;
+    font-size: 18px;
+    border: 1px solid black;
+    color: white;
+    padding: 15px 25px;
+    cursor: pointer;
+    background-color: dodgerblue;
+    border-radius: 7%;
+}
+
+#welcome_login {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 45.7%;
+    font-size: 18px;
+    border: 1px solid black;
+    color: white;
+    padding: 15px 25px;
+    cursor: pointer;
+    background-color: dodgerblue;
+    border-radius: 7%;
+}
+
+#welcome_guest {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 44.35%;
+    font-size: 18px;
+    border: 1px solid black;
+    color: white;
+    padding: 15px 25px;
+    cursor: pointer;
+    background-color: dodgerblue;
+    border-radius: 7%;
+}
+
+#register_header {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: xx-large;
+}
+
+#register_titles {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    font-size: x-large;
+    margin-left: 37%;
+    margin-right: 10px;
+}
+
+#register_username {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    font-size: x-large;
+}
+
+#register_account {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    font-size: x-large;
+}
+
+#register_pw {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    font-size: x-large;
+}
+
+#register_pw_verify {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    font-size: x-large;
+}
+
+#register_signUp_btn {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 47%;
+    font-size: 18px;
+    border: 1px solid black;
+    color: white;
+    padding: 15px 25px;
+    cursor: pointer;
+    background-color: dodgerblue;
+    border-radius: 7%;
+}
+
+#login_header {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: xx-large;
+}
+
+#login_titles {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    font-size: x-large;
+    margin-left: 40%;
+    margin-right: 10px;
+}
+
+#login_account {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    font-size: x-large;
+    width: 30%;
+}
+
+#login_pw {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    font-size: x-large;
+    width: 30%;
+}
+
+#login_signIn_btn {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 47%;
+    font-size: 18px;
+    border: 1px solid black;
+    color: white;
+    padding: 15px 25px;
+    cursor: pointer;
+    background-color: dodgerblue;
+    border-radius: 7%;
+}
+
+#not_registered_user {
+    padding-top: 5%;
+    margin-left: 10%;
+}
+
+#user_info {
+    margin-left: 50px;
+}
+
+#delete_question {
+    margin-left: 10px;
+    border: 1px solid red;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#see_all_user {
+    margin-left: 50px;
+    border: 1px solid black;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: green;
+}
